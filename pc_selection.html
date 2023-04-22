@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <title>My site</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              <a href="index.html"> 11Б </a>
+            </h1>
+          </div>
+          <div class="col-10">
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li>
+                <a href="#">Начальные шаги</a>
+                <ul>
+                  <li><a href="pc_selection.html">Выбор ПК</a></li>
+                  <li><a href="pc_assembly.html">Сборка ПК</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Заключение</a>
+                <ul>
+                  <li><a href="pc_settings.html">Настройка ПК</a></li>
+                  <li>
+                    <a href="pc_work_rules.html">Правила использования ПК</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="test.html">Тест</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="card class4">
+      <div class="card class5 border border-4 border-secondary rounded-3">
+        <div class="card-body">
+          <h5 class="card-title fs-2 text-center fw-weight-bold class14">
+            Виды ПК
+          </h5>
+        </div>
+      </div>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div
+          class="carousel-inner class8 border border-4 border-secondary rounded-3"
+        >
+          <div class="carousel-item active class6">
+            <img src="img/fon.png" class="class11" alt="..." />
+            <div class="class7">
+              <h5 class="card-title text-white fs-2 fw-weight-bold class13">
+                Классический системный блок
+              </h5>
+              <p class="card-text text-white class12">
+                Классический компьютер, представлющий собой корпус в котором
+                размещенны все основные составляющие компьютера, которые можно
+                заменить, убрать или добавить. Еаиболее универсальный вид ПК,
+                так как его комплектующие можно подобрать самостоятельно.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item class6">
+            <img src="img/fon.png" class="class11" alt="..." />
+            <div class="class7">
+              <h5 class="card-title text-white fs-2 fw-weight-bold class13">
+                Ноутбук
+              </h5>
+              <p class="card-text text-white class12">
+                Переносной компьютер, в корпусе которого объединены типичные
+                компоненты ПК, включая дисплей, клавиатуру и устройство
+                указания, атакже аккумуляторные батареи. Ноутбуки отличаются
+                небольшими размерами и весом. В этом сигменте представленны
+                варианты для разных сфер деятельности - работы, игр или
+                домашнего пользования.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item class6">
+            <img src="img/fon.png" class="class11" alt="..." />
+            <div class="class7">
+              <h5 class="card-title text-white fs-2 fw-weight-bold class13">
+                Моноблок
+              </h5>
+              <p class="card-text text-white class12">
+                Моноблок - грубо говоря, это компьютер расположенный в мониторе.
+                Полноразмерная настольная система с экраном большой диагонали,
+                но без встроенной клавиатуры и мыши или тачпада. Этот сигмент ПК
+                богат и разнообразен - как офисные или профиссиональные модели,
+                так домашние и игровые.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="class10">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+      </div>
+      <div class="card border border-4 border-secondary rounded-3 class15">
+        <div class="card-body">
+          <h5 class="card-title fs-2 text-center fw-weight-bold class14">
+            Комплектующие ПК
+          </h5>
+        </div>
+      </div>
+      <div class="container class16">
+        <div class="row gx-3">
+          <div class="col">
+            <div
+              class="card class17 border border-4 border-secondary rounded-3"
+            >
+              <img
+                src="img/материнка.webp"
+                class="card-img-top"
+                style="height: 135px"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fs-4 text-center fw-weight-bold class14">
+                  Материнская плата
+                </h5>
+                <p class="card-text">
+                  Материнская плата является сердцем компьютера потому что ней
+                  подключаются все остальные комплектующие
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card class17 border border-4 border-secondary rounded-3"
+            >
+              <img
+                src="img/процессор.webp"
+                class="card-img-top"
+                style="height: 135px"
+                alt="..."
+              />
+              <div class="card-body class17">
+                <h5 class="card-title fs-4 text-center fw-weight-bold class14">
+                  Процессор
+                </h5>
+                <p class="card-text">
+                  Мозг системного блока компьютера, который осуществляет все
+                  вычисления и анализирует их результат
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card class17 border border-4 border-secondary rounded-3"
+            >
+              <img
+                src="img/БП.webp"
+                class="card-img-top"
+                style="height: 135px"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fs-4 text-center fw-weight-bold class14">
+                  Блок питания
+                </h5>
+                <p class="card-text">
+                  Источник электропитания, предназначенный для снабжения узлов
+                  компьютера электрической энергией
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gx-3 class18">
+          <div class="col">
+            <div
+              class="card class17 border border-4 border-secondary rounded-3"
+            >
+              <img
+                src="img/ОП.webp"
+                class="card-img-top"
+                style="height: 135px"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fs-4 text-center fw-weight-bold class14">
+                  Оперативная память
+                </h5>
+                <p class="card-text">
+                  Память, предназначенная для временного хранения данных и
+                  команд, необходимых процессору для выполнения им операций
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card class17 border border-4 border-secondary rounded-3"
+            >
+              <img
+                src="img/ЖД.webp"
+                class="card-img-top"
+                style="height: 135px"
+                alt="..."
+              />
+              <div class="card-body class17">
+                <h5 class="card-title fs-4 text-center fw-weight-bold class14">
+                  Жёсткий диск
+                </h5>
+                <p class="card-text">
+                  Устройство для длительного хранения данных и быстрого доступа
+                  к ним
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card class17 border border-4 border-secondary rounded-3"
+            >
+              <img
+                src="img/Видеокарта.webp"
+                class="card-img-top"
+                style="height: 135px"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title fs-4 text-center fw-weight-bold class14">
+                  Видеокарта
+                </h5>
+                <p class="card-text">
+                  Устройство для преобразования изображения из памяти компьютера
+                  в видео сигнал для монитора
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border border-4 border-secondary rounded-3 class19">
+        <div class="card-body">
+          <h5 class="card-title fs-2 text-center fw-weight-bold class14">
+            Устройства ввода
+          </h5>
+        </div>
+      </div>
+      <div class="card mb-3 class21 border border-4 border-secondary rounded-3">
+        <div class="row g-0">
+          <div class="col-md-4 border-end border-4 border-secondary rounded-3">
+            <img
+              src="img/микро.webp"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Микрофон</h5>
+              <p class="card-text">
+                Дополнительное устройство, предназначенное для записи и ввода
+                звуковой и речевой информации в ПК.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 class21 border border-4 border-secondary rounded-3">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Клавиатура</h5>
+              <p class="card-text">
+                Клавишное устройство, предназначенное для управления компьютером
+                и ввода в него информации.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-4 border-start border-4 border-secondary rounded-3"
+          >
+            <img
+              src="img/клава.webp"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 class21 border border-4 border-secondary rounded-3">
+        <div class="row g-0">
+          <div class="col-md-4 border-end border-4 border-secondary rounded-3">
+            <img
+              src="img/мышка.webp"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Компьютерная мышь</h5>
+              <p class="card-text">
+                Устройство, с помощью которого можно выбирать какие-либо объекты
+                на экране компьютера и управлять ими .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 class21 border border-4 border-secondary rounded-3">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Веб-камера</h5>
+              <p class="card-text">
+                Устройство, предназначенное для фиксирования изображения в
+                реальном времени и передачи его в сеть интернет.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-4 border-start border-4 border-secondary rounded-3"
+          >
+            <img
+              src="img/веб-камера.webp"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+      <div class="card border border-4 border-secondary rounded-3 class22">
+        <div class="card-body">
+          <h5 class="card-title fs-2 text-center fw-weight-bold class14">
+            Устройства вывода
+          </h5>
+        </div>
+      </div>
+      <div class="card mb-3 class23 border border-4 border-secondary rounded-3">
+        <div class="row g-0">
+          <div class="col-md-4 border-end border-4 border-secondary rounded-3">
+            <img
+              src="img/моник.webp"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Монитор</h5>
+              <p class="card-text">
+                Прибор для отображения изображений, видео, текста и другой
+                информации в графическом виде, удобном для пользователя.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 class23 border border-4 border-secondary rounded-3">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Колонки</h5>
+              <p class="card-text">
+                Периферийное устройство вывода, которое служит для
+                воспроизведения звука.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-4 border-start border-4 border-secondary rounded-3"
+          >
+            <img
+              src="img/колонки.webp"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 class23 border border-4 border-secondary rounded-3">
+        <div class="row g-0">
+          <div class="col-md-4 border-end border-4 border-secondary rounded-3">
+            <img
+              src="img/наушники.webp"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Наушники</h5>
+              <p class="card-text">
+                Пара небольших динамиков, надетых на голову или вокруг головы
+                над ушами пользователя.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 class23 border border-4 border-secondary rounded-3">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Принтер</h5>
+              <p class="card-text">
+                Устройство для печати информации из компьютера на бумагу.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-4 border-start border-4 border-secondary rounded-3"
+          >
+            <img
+              src="img/принтер.webp"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
